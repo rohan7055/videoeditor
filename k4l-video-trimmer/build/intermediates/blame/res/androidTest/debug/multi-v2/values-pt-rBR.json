@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\Internship\\koo\\VideoEditorSample\\videoeditor\\k4l-video-trimmer\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\rohan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\277b0a41a14583dba320140066d01781\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,175,283,406,512,619,708,809,927,1010,1090,1177,1284,1396,1498,1606,1713,1823,1948,2048,2133",
+                        "endColumns": "119,107,122,105,106,88,100,117,82,79,86,106,111,101,107,106,109,124,99,84,100",
+                        "endOffsets": "170,278,401,507,614,703,804,922,1005,1085,1172,1279,1391,1493,1601,1708,1818,1943,2043,2128,2229"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,25,27",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,175,283,406,512,619,708,809,927,1010,1090,1177,1284,1396,1498,1606,1713,1823,1948,2212,2343",
+                        "endColumns": "119,107,122,105,106,88,100,117,82,79,86,106,111,101,107,106,109,124,99,84,100",
+                        "endOffsets": "170,278,401,507,614,703,804,922,1005,1085,1172,1279,1391,1493,1601,1708,1818,1943,2043,2292,2439"
+                    }
+                },
+                {
+                    "source": "G:\\Internship\\koo\\VideoEditorSample\\videoeditor\\k4l-video-trimmer\\build\\intermediates\\bundles\\debug\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,99,139,179,219",
+                        "endColumns": "43,39,39,39,45",
+                        "endOffsets": "94,134,174,214,260"
+                    },
+                    "to": {
+                        "startLines": "21,22,23,24,26",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "2048,2092,2132,2172,2297",
+                        "endColumns": "43,39,39,39,45",
+                        "endOffsets": "2087,2127,2167,2207,2338"
+                    }
+                }
+            ]
+        }
+    ]
+}

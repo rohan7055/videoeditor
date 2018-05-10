@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    defaultConfig {
+        applicationId "admybrand.rohanthakur7055.com.videoeditor"
+        minSdkVersion 17
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    maven {
+        url = 'https://oss.sonatype.org/content/repositories/snapshots/'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:25.0.0'
+    implementation 'com.android.support:support-v4:25.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    compile 'com.afollestad:easyvideoplayer:0.3.0'
+    compile 'com.afollestad:material-camera:0.4.4'
+    compile 'com.github.yangjie10930:EpMedia:v0.9.3'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //  compile 'life.knowledge4:k4l-video-trimmer:1.0'
+    // compile 'life.knowledge4:k4l-video-trimmer:0.1-SNAPSHOT'
+    compile project(':k4l-video-trimmer')
+}

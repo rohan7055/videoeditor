@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="admybrand.rohanthakur7055.com.videoeditor.EditVideoActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/view_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff" >
+        <com.afollestad.easyvideoplayer.EasyVideoPlayer xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/player"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="124dp"
+            android:src="@mipmap/ic_launcher"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+    <LinearLayout
+
+        android:layout_marginTop="50dp"
+        android:id="@+id/llprocessvideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@id/lleditvideo"
+        android:visibility="gone">
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CANCEL"/>
+
+        <Button
+            android:id="@+id/btn_proceed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PROCEED"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lleditvideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp">
+        <Button
+            android:id="@+id/btn_trim"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TRIM"/>
+        <Button
+            android:id="@+id/btn_addcoverimage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ADD COVER"/>
+        <Button
+            android:id="@+id/btn_changeaudio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CHANGE AUDIO"/>
+    </LinearLayout>
+
+</RelativeLayout>
